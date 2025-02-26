@@ -1,4 +1,4 @@
-FROM python:3.6-slim
+FROM python:3.14-rc-alpine3.21
 
 COPY src/test/scripts /app
 COPY requirements.txt /app/requirements.txt
