@@ -5,3 +5,4 @@ pylint
 isodate
 coverage
 restapi_logging_handler
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
